@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	etcd "github.com/coreos/etcd/client"
 	. "github.com/smartystreets/goconvey/convey"
+	etcd "go.etcd.io/etcd/client"
 	"golang.org/x/net/context"
 )
 

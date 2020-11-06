@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	etcd "github.com/coreos/etcd/client"
+	etcd "go.etcd.io/etcd/client"
 	errgo "gopkg.in/errgo.v1"
 )
 
